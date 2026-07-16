@@ -10,6 +10,7 @@
   home.packages = with pkgs; [
     eza
     fastfetch
+    htop
   ];
 
   programs.bat.enable = true;
