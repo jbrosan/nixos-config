@@ -68,7 +68,6 @@
    onlyoffice-desktopeditors
    discord
    spotify
-   fish
    ghostty
    rustup
    mise
