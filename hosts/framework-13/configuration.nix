@@ -73,7 +73,6 @@
    google-chrome
    librewolf
    emacs 
-   yazi
    btop
    htop 
   ];

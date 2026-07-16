@@ -16,6 +16,7 @@
   programs.fd.enable = true;
   programs.fzf.enable = true;
   programs.ripgrep.enable = true;
+  programs.yazi.enable = true;
   programs.zoxide.enable = true;
   programs.home-manager.enable = true;
 }
