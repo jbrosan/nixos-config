@@ -13,6 +13,7 @@
       ../../modules/core/locale.nix
       ../../modules/core/networking.nix
       ../../modules/core/audio.nix
+      ../../modules/core/printing.nix
     ];
 
   # Bootloader.
@@ -42,10 +43,6 @@
     layout = "us";
     variant = "";
   };
-
-  # Enable CUPS to print documents.
-  services.printing.enable = true;
-
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
