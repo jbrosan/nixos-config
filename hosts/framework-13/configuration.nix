@@ -73,7 +73,6 @@
    google-chrome
    librewolf
    emacs 
-   fzf 
    fd 
    ripgrep 
    yazi
