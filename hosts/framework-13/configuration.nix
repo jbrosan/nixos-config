@@ -72,7 +72,6 @@
    fish
    fastfetch
    ghostty
-   kitty
    rustup
    mise
    google-chrome
