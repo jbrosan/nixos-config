@@ -70,7 +70,6 @@
    zoxide
    bat
    fish
-   fastfetch
    ghostty
    rustup
    mise

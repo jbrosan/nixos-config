@@ -1,4 +1,4 @@
-{ ... }:
+{ pkgs, ... }:
 
 {
   home.username = "jbrosan";
@@ -6,6 +6,10 @@
 
   # Keep this at the version where Home Manager is first introduced.
   home.stateVersion = "26.05";
+
+  home.packages = with pkgs; [
+    fastfetch
+  ];
 
   programs.home-manager.enable = true;
 }
