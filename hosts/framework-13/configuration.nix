@@ -38,6 +38,7 @@
   users.users."jbrosan" = {
     isNormalUser = true;
     description = "John Brosan";
+    shell = pkgs.fish;
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       kdePackages.kate
@@ -47,6 +48,7 @@
 
   # Install firefox.
   programs.firefox.enable = true;
+  programs.fish.enable = true;
 
   # Cache unlocked SSH keys for the current login session.
   programs.ssh.startAgent = true;
