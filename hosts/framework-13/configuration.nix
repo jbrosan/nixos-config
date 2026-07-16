@@ -73,7 +73,6 @@
    google-chrome
    librewolf
    emacs 
-   ripgrep 
    yazi
    btop
    htop 
