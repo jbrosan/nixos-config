@@ -28,7 +28,12 @@
     ];
   };
 
-  programs.fish.enable = true;
+  programs.fish = {
+    enable = true;
+    shellAbbrs = {
+      nrs = "sudo nixos-rebuild switch --flake .#framework-13";
+    };
+  };
   xdg.configFile."ghostty/config".source = ./ghostty/config;
   xdg.configFile."ghostty/shaders/trail.glsl".source = ./ghostty/shaders/trail.glsl;
   xdg.configFile."ghostty/shaders/cursor_frozen.glsl".source = ./ghostty/shaders/cursor_frozen.glsl;
