@@ -31,6 +31,7 @@
   programs.fish = {
     enable = true;
     shellAbbrs = {
+      nfc = "nix flake check";
       nrs = "sudo nixos-rebuild switch --flake .#framework-13";
     };
   };
