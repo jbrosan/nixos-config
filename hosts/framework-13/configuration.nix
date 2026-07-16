@@ -66,7 +66,6 @@
    onlyoffice-desktopeditors
    discord
    spotify
-   zoxide
    fish
    ghostty
    rustup

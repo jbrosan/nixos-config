@@ -13,6 +13,7 @@
   ];
 
   programs.bat.enable = true;
+  programs.zoxide.enable = true;
   programs.home-manager.enable = true;
 }
 
