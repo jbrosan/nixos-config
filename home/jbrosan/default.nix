@@ -29,6 +29,10 @@
   };
 
   programs.fish.enable = true;
+  xdg.configFile."ghostty/config".source = ./ghostty/config;
+  xdg.configFile."ghostty/shaders/trail.glsl".source = ./ghostty/shaders/trail.glsl;
+  xdg.configFile."ghostty/shaders/cursor_frozen.glsl".source = ./ghostty/shaders/cursor_frozen.glsl;
+  programs.ghostty.enable = true;
   programs.ripgrep.enable = true;
   programs.yazi.enable = true;
   programs.zoxide.enable = true;
