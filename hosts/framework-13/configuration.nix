@@ -66,7 +66,6 @@
    onlyoffice-desktopeditors
    discord
    spotify
-   eza
    zoxide
    bat
    fish
