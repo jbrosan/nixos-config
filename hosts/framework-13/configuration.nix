@@ -103,6 +103,9 @@
   # Install firefox.
   programs.firefox.enable = true;
 
+  # Cache unlocked SSH keys for the current login session.
+  programs.ssh.startAgent = true;
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
