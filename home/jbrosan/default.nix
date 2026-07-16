@@ -33,6 +33,12 @@
   xdg.configFile."ghostty/shaders/trail.glsl".source = ./ghostty/shaders/trail.glsl;
   xdg.configFile."ghostty/shaders/cursor_frozen.glsl".source = ./ghostty/shaders/cursor_frozen.glsl;
   programs.ghostty.enable = true;
+  programs.starship = {
+    enable = true;
+    enableFishIntegration = true;
+    settings = builtins.fromTOML (builtins.readFile ./starship/starship.toml);
+  };
+
   programs.ripgrep.enable = true;
   programs.yazi.enable = true;
   programs.zoxide.enable = true;
