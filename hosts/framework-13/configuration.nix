@@ -67,7 +67,6 @@
    discord
    spotify
    zoxide
-   bat
    fish
    ghostty
    rustup

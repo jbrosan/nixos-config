@@ -12,6 +12,7 @@
     fastfetch
   ];
 
+  programs.bat.enable = true;
   programs.home-manager.enable = true;
 }
 
