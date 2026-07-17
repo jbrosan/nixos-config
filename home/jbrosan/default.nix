@@ -34,6 +34,7 @@
       gs = "git --no-pager status --short --branch";
       gd = "git --no-pager diff";
       gl = "git --no-pager log --oneline --decorate -n 10";
+      gc = "git commit";
       nfc = "nix flake check";
       nrd = "sudo nixos-rebuild dry-build --flake .#framework-13";
       nrs = "sudo nixos-rebuild switch --flake .#framework-13";
