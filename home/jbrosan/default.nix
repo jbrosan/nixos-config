@@ -31,6 +31,7 @@
   programs.fish = {
     enable = true;
     shellAbbrs = {
+      gs = "git --no-pager status --short --branch";
       nfc = "nix flake check";
       nrd = "sudo nixos-rebuild dry-build --flake .#framework-13";
       nrs = "sudo nixos-rebuild switch --flake .#framework-13";
