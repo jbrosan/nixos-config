@@ -10,6 +10,7 @@
     "niri/window-rules.kdl".source = ./window-rules.kdl;
 
     "niri/outputs/framework-13.kdl".source = ./outputs/framework-13.kdl;
+    "niri/outputs/local.kdl".source = ./outputs/framework-13.kdl;
     "niri/outputs/framework-13-pro.kdl".source = ./outputs/framework-13-pro.kdl;
     "niri/outputs/desktop.kdl".source = ./outputs/desktop.kdl;
   };
