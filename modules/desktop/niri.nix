@@ -8,6 +8,7 @@
 
   # Niri launches Xwayland Satellite automatically when an X11 client connects.
   environment.systemPackages = with pkgs; [
+    noctalia-shell
     xwayland-satellite
   ];
 }
