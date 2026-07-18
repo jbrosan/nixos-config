@@ -1,0 +1,9 @@
+// Shared modular Niri configuration.
+// Includes are positional: later files may override earlier settings.
+
+include "input.kdl"
+include "layout.kdl"
+include "startup.kdl"
+include "binds.kdl"
+include "window-rules.kdl"
+include optional=true "outputs/local.kdl"

@@ -1,6 +1,10 @@
 { pkgs, ... }:
 
 {
+  imports = [
+    ./niri
+  ];
+
   home.username = "jbrosan";
   home.homeDirectory = "/home/jbrosan";
 
