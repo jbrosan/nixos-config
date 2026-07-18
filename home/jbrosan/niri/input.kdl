@@ -1,1 +1,16 @@
-// Managed Niri module: input.kdl
+// Shared Niri input configuration.
+
+input {
+    keyboard {
+        xkb {
+            layout "us"
+        }
+
+        numlock
+    }
+
+    touchpad {
+        tap
+        natural-scroll
+    }
+}
