@@ -1,1 +1,13 @@
-// Managed Niri module: window-rules.kdl
+// Shared Niri window rules.
+
+// Round application windows so borders and shadows follow the same geometry.
+window-rule {
+    geometry-corner-radius 12
+    clip-to-geometry true
+    draw-border-with-background false
+
+    background-effect {
+        xray true
+        blur true
+    }
+}

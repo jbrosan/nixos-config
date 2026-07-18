@@ -12,9 +12,16 @@
   home.stateVersion = "26.05";
 
   home.packages = with pkgs; [
+    choose
     eza
     fastfetch
     htop
+    hyperfine
+    impression
+    jq
+    sd
+    tree
+    yq-go
   ];
 
   programs.bat.enable = true;

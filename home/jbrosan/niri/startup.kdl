@@ -1,4 +1,4 @@
 // Niri-only startup configuration.
 
-// Launch the Noctalia shell only inside the Niri session.
-spawn-at-startup "noctalia-shell"
+// Delay Noctalia slightly so the Niri session and user services are ready.
+spawn-at-startup "sh" "-c" "sleep 2; exec noctalia-shell"
