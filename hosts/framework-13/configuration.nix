@@ -15,6 +15,7 @@
       ../../modules/core/audio.nix
       ../../modules/core/printing.nix
       ../../modules/desktop/plasma.nix
+      ../../modules/desktop/niri.nix
     ];
 
   # Bootloader.
