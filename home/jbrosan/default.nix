@@ -3,6 +3,7 @@
 {
   imports = [
     ./niri
+    ./plasma
   ];
 
   home.username = "jbrosan";
