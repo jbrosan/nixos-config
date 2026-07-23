@@ -58,8 +58,14 @@
   nixpkgs.config.allowUnfree = true;
 
   fonts.packages = with pkgs; [
+    cascadia-code
+    inter
     nerd-fonts.caskaydia-cove
     nerd-fonts.jetbrains-mono
+    nerd-fonts.symbols-only
+    symbola
+    ubuntu-classic
+    ubuntu-sans
   ];
 
   # List packages installed in system profile. To search, run:
@@ -79,7 +85,6 @@
    mise
    google-chrome
    librewolf
-   emacs 
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./doom-emacs
     ./niri
     ./plasma
   ];
