@@ -1,6 +1,10 @@
 { ... }:
 
 {
+  imports = [
+    ./portable/packages.nix
+  ];
+
   home.username = "jbrosan";
   home.homeDirectory = "/home/jbrosan";
 
