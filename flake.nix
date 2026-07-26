@@ -35,6 +35,13 @@
         }
       ];
     };
+
+    homeConfigurations."jbrosan@mustafar" = home-manager.lib.homeManagerConfiguration {
+      pkgs = nixpkgs.legacyPackages.x86_64-linux;
+      modules = [
+        ./home/jbrosan/mustafar-bootstrap.nix
+      ];
+    };
   };
 }
 
