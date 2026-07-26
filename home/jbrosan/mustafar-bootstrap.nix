@@ -3,6 +3,7 @@
 {
   imports = [
     ./portable/packages.nix
+    ./portable/shell.nix
   ];
 
   home.username = "jbrosan";
