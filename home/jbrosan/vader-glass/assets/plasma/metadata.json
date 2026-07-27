@@ -1,0 +1,10 @@
+{
+  "KPlugin": {
+    "Authors": [{ "Name": "John Brosan / Forge" }],
+    "Description": "Vader Glass translucent Plasma surface layer",
+    "Id": "VaderGlass",
+    "License": "GPL-2.0-or-later",
+    "Name": "Vader Glass",
+    "Version": "1.0"
+  }
+}

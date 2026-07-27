@@ -6,6 +6,7 @@
     ./portable/shell.nix
     ./portable/terminal.nix
     ./doom-emacs
+    ./vader-glass
   ];
 
   home.username = "jbrosan";
