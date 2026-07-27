@@ -4,6 +4,7 @@
   imports = [
     ./portable/packages.nix
     ./portable/shell.nix
+    ./portable/terminal.nix
   ];
 
   home.username = "jbrosan";
