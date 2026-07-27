@@ -1,7 +1,7 @@
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
 
 (setq doom-font
-      (font-spec :family "Cascadia Code NF"
+      (font-spec :family "CaskaydiaCove Nerd Font"
                  :size 15
                  :weight 'regular)
       doom-variable-pitch-font
@@ -9,7 +9,7 @@
                  :size 15
                  :weight 'regular)
       doom-big-font
-      (font-spec :family "Cascadia Code NF"
+      (font-spec :family "CaskaydiaCove Nerd Font"
                  :size 24
                  :weight 'regular)
       doom-symbol-font
@@ -27,7 +27,18 @@
         markdown-mode
         org-mode))
 
-(setq doom-theme 'doom-one)
+(setq doom-theme (quote doom-one))
+
+;; CaskaydiaCove is the Nerd Font build of Cascadia Code.  Use its cursive
+;; italic face selectively so code remains readable.
+(custom-set-faces!
+  (quote (font-lock-comment-face :slant italic))
+  (quote (font-lock-doc-face :slant italic))
+  (quote (font-lock-keyword-face :slant italic)))
+
+;; Grammar libraries are supplied immutably by the Nix-managed Emacs wrapper.
+(when-let ((grammar-path (getenv "EMACS_TREE_SITTER_GRAMMAR_PATH")))
+  (add-to-list (quote treesit-extra-load-path) grammar-path))
 (setq display-line-numbers-type 'relative)
 (setq org-directory "~/org/")
 

@@ -5,6 +5,7 @@
     ./portable/packages.nix
     ./portable/shell.nix
     ./portable/terminal.nix
+    ./doom-emacs
   ];
 
   home.username = "jbrosan";
